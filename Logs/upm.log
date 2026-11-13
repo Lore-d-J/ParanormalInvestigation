@@ -1,0 +1,27 @@
+[2026-11-13T04:42:11.789Z][INFO] Command-line: D:\\Unity\\6000.6.8f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe server -s 3312 --ipc-path Unity-Upm-3312 -l 2 --log-file D:\\Project\\ParanormalInvestigation/Logs/upm.log
+[2026-11-13T04:42:11.843Z][INFO] IPC server started (IPC path=Unity-Upm-3312).
+[2026-11-13T04:42:11.843Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-3312.
+[2026-11-13T04:42:14.072Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-13T04:42:14.378Z][INFO] project:list-packages --> 200 (306 ms)
+[2026-11-13T04:42:14.492Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-13T04:42:14.509Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-13T04:42:14.530Z][INFO] config:project:get-registries --> 200 (21 ms)
+[2026-11-13T04:42:14.709Z][INFO] project:list-packages --> 200 (217 ms)
+[2026-11-13T04:42:18.975Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-13T04:42:19.084Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-13T04:42:19.379Z][INFO] project:list-packages --> 200 (404 ms)
+[2026-11-13T04:42:19.610Z][INFO] project:list-packages --> 200 (527 ms)
+[2026-11-13T04:42:20.790Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-13T04:42:20.804Z][INFO] config:project:get-registries --> 200 (14 ms)
+[2026-11-13T04:42:27.303Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-13T04:42:27.504Z][INFO] project:list-packages --> 200 (201 ms)
+[2026-11-13T04:42:32.844Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-13T04:42:34.953Z][INFO] project:list-packages --> 200 (2109 ms)
