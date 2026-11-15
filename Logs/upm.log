@@ -1,27 +1,41 @@
-[2026-11-13T04:42:11.789Z][INFO] Command-line: D:\\Unity\\6000.6.8f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe server -s 3312 --ipc-path Unity-Upm-3312 -l 2 --log-file D:\\Project\\ParanormalInvestigation/Logs/upm.log
-[2026-11-13T04:42:11.843Z][INFO] IPC server started (IPC path=Unity-Upm-3312).
-[2026-11-13T04:42:11.843Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-3312.
-[2026-11-13T04:42:14.072Z][INFO] project:list-packages <-- Request received
+[2026-11-15T05:05:42.319Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.8f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 23760 --ipc-path Unity-Upm-23760 -l 2 --log-file 'C:\\Users\\My PC\\Desktop\\Projects\\ParanormalInvestigation/Logs/upm.log'
+[2026-11-15T05:05:42.366Z][INFO] IPC server started (IPC path=Unity-Upm-23760).
+[2026-11-15T05:05:42.366Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-23760.
+[2026-11-15T05:05:53.082Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-13T04:42:14.378Z][INFO] project:list-packages --> 200 (306 ms)
-[2026-11-13T04:42:14.492Z][INFO] project:list-packages <-- Request received
+[2026-11-15T05:05:53.763Z][INFO] project:list-packages --> 200 (681 ms)
+[2026-11-15T05:05:54.100Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-13T04:42:14.509Z][INFO] config:project:get-registries <-- Request received
+[2026-11-15T05:05:54.117Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-11-13T04:42:14.530Z][INFO] config:project:get-registries --> 200 (21 ms)
-[2026-11-13T04:42:14.709Z][INFO] project:list-packages --> 200 (217 ms)
-[2026-11-13T04:42:18.975Z][INFO] project:list-packages <-- Request received
+[2026-11-15T05:05:54.138Z][INFO] config:project:get-registries --> 200 (22 ms)
+[2026-11-15T05:05:54.200Z][INFO] project:resolve-packages <-- Request received
 params: {}
-[2026-11-13T04:42:19.084Z][INFO] project:list-packages <-- Request received
+[2026-11-15T05:05:54.377Z][INFO] project:list-packages --> 200 (277 ms)
+[2026-11-15T05:05:57.127Z][INFO] Downloading package [com.unity.cloud.gltfast@6.21.0] from registry 'https://packages.unity.com'
+[2026-11-15T05:05:57.709Z][INFO] Finished downloading package [com.unity.cloud.gltfast@6.21.0] from registry 'https://packages.unity.com' (size: 2.05 MB, time: 581ms)
+[2026-11-15T05:06:02.704Z][INFO] project:resolve-packages --> 200 (8504 ms)
+[2026-11-15T05:07:14.319Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-13T04:42:19.379Z][INFO] project:list-packages --> 200 (404 ms)
-[2026-11-13T04:42:19.610Z][INFO] project:list-packages --> 200 (527 ms)
-[2026-11-13T04:42:20.790Z][INFO] config:project:get-registries <-- Request received
+[2026-11-15T05:07:14.396Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-13T04:42:20.804Z][INFO] config:project:get-registries --> 200 (14 ms)
-[2026-11-13T04:42:27.303Z][INFO] project:list-packages <-- Request received
+[2026-11-15T05:07:14.549Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-13T04:42:27.504Z][INFO] project:list-packages --> 200 (201 ms)
-[2026-11-13T04:42:32.844Z][INFO] project:list-packages <-- Request received
+[2026-11-15T05:07:14.912Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-11-13T04:42:34.953Z][INFO] project:list-packages --> 200 (2109 ms)
+[2026-11-15T05:07:14.921Z][INFO] project:list-packages --> 200 (524 ms)
+[2026-11-15T05:07:14.922Z][INFO] project:list-packages --> 200 (603 ms)
+[2026-11-15T05:07:14.928Z][INFO] config:project:get-registries --> 200 (16 ms)
+[2026-11-15T05:07:14.952Z][INFO] project:list-packages --> 200 (402 ms)
+[2026-11-15T05:07:15.024Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T05:07:17.768Z][INFO] project:list-packages --> 200 (2744 ms)
+[2026-11-15T05:07:34.201Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T05:07:34.391Z][INFO] project:list-packages --> 200 (190 ms)
+[2026-11-15T05:07:34.560Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T05:07:34.701Z][INFO] project:list-packages --> 200 (141 ms)
+[2026-11-15T05:07:40.336Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T05:07:41.076Z][INFO] project:list-packages --> 200 (740 ms)

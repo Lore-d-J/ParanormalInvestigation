@@ -18,9 +18,29 @@ public class PlayerController : MonoBehaviour
     private Vector3 velocity;
     private float xRotation = 0f;
 
+    void Awake()
+    {
+        controller = GetComponentInParent<CharacterController>();
+        if (controller == null)
+        {
+            Debug.LogError("PlayerController requires a CharacterController on this object or a parent.", this);
+            enabled = false;
+            return;
+        }
+
+        PlayerController controllerOnPlayer = controller.GetComponent<PlayerController>();
+        if (controllerOnPlayer != null && controllerOnPlayer != this)
+        {
+            enabled = false;
+        }
+    }
+
     void Start() //runs when the player starts
     {
-        controller = GetComponent<CharacterController>();
+        if (!enabled)
+        {
+            return;
+        }
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -37,7 +57,9 @@ public class PlayerController : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
-        Vector3 move = transform.right * x + transform.forward * z;
+        var playerTransform = controller.transform;
+        Vector3 input = Vector3.ClampMagnitude(new Vector3(x, 0f, z), 1f);
+        Vector3 move = playerTransform.right * input.x + playerTransform.forward * input.z;
 
         controller.Move(move * moveSpeed * Time.deltaTime);
 
@@ -66,6 +88,6 @@ public class PlayerController : MonoBehaviour
 
         playerCamera.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
 
-        transform.Rotate(Vector3.up * mouseX);
+        controller.transform.Rotate(Vector3.up * mouseX);
     }
 }

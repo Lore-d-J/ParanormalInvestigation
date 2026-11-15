@@ -1,53 +1,53 @@
-VBCSCompilerPreWarmer: watching VBCSCompiler (PID 17080)
-VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 13992)
-VBCSCompiler prewarm took 53.61 ms
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 13576)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 24840)
+VBCSCompiler prewarm took 102.09 ms
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.6/respin/6000.6.8f1-b6138bef9630' branch; Version is '6000.6.8f1 (237b6593792b) revision 2325349'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tamba" at "2026-11-13T04:38:26.0154889Z"
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16301 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Zeus" at "2026-11-15T04:56:08.6820237Z"
+OS: 'Windows 11  (10.0.26300) Professional' Language: 'en' Physical Memory: 16277 MB
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-13T04:38:26Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 8356, path: "C:/Program Files/WindowsApps/UnityTechnologies.UnityHub_3.22.6.65535_x64__2vrhnee42bhxm/app/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+Date: 2026-11-15T04:56:08Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4076, path: "C:/Program Files/WindowsApps/UnityTechnologies.UnityHub_3.22.6.65535_x64__2vrhnee42bhxm/app/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              ba8a0d8d8dd04179bfab63b3fde4958b
-  Correlation Id:          a508305a8055c0125349b0654263cd9a
-  External correlation Id: 571900668235558182
-  Machine Id:              yAZCSugLRsSyLrQaszu5oOsLsz8=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-tamba" (connect: 0.00s, validation: 0.00s, handshake: 0.08s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tamba-notifications" at "2026-11-13T04:38:26.0994557Z"
+  Session Id:              9258ff6786f54dc08bbefb376946054d
+  Correlation Id:          df2d443c6f5781942ea87f2098abe834
+  External correlation Id: 724479290137453200
+  Machine Id:              LRtYaFPd50uk9M3GzqxCC/9oPJ8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Zeus" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Zeus-notifications" at "2026-11-15T04:56:08.7767098Z"
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated the access token Dqyh0ILVUW...
+[Licensing::Module] Successfully updated the access token Egmpx79O8g...
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 18968350105911-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-[Licensing::Client] Successfully updated license, isAsync: True, time: 0.03
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 0.14s
+[Licensing::Module] Licensing Background thread has ended after 0.11s
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\6000.6.8f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Unity.exe
 -projectpath
-D:\Project\ParanormalInvestigation
+C:\Users\My PC\Desktop\Projects\ParanormalInvestigation
 -acceptSoftwareTermsForThisRunOnly
 -useHub
 -hubIPC
 -cloudEnvironment
 production
 -licensingIpc
-LicenseClient-tamba
+LicenseClient-Zeus
 -hubSessionId
-04f3b9c8-0bb7-4684-8844-848145e32b25
+5d5401e6-dfaa-45cf-8392-2cefe41d9526
 -accessToken
-Dqyh0ILVUWBAdoZxRxhoUua1fvetqaOLPibS-qhxuF4011f
-Successfully changed project path to: D:\Project\ParanormalInvestigation
-D:/Project/ParanormalInvestigation
+Egmpx79O8geEaPkFbCRWdZC8lEJ9W9QLbB6oTkBOtaE011f
+Successfully changed project path to: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation
+C:/Users/My PC/Desktop/Projects/ParanormalInvestigation
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -85,29 +85,29 @@ D:/Project/ParanormalInvestigation
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [13668]  Target information:
+Player connection [22640]  Target information:
 
-Player connection [13668]  * "[IP] 192.168.100.175 [Port] 55504 [Flags] 2 [Guid] 3865901038 [EditorId] 3865901038 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J5LLI2J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22640]  * "[IP] 192.168.100.74 [Port] 55504 [Flags] 2 [Guid] 536906164 [EditorId] 536906164 [Version] 1048832 [Id] WindowsEditor(7,ZEUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13668] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13668] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22640] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22640] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-13940" after 0.6 seconds.
+[Package Manager] Connected to IPC stream "Upm-25028" after 0.4 seconds.
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
 Initialising UDS system complete:
   - System type: Client
-  - Resource namespace: 586d7dd363c60400765e87c7d9d818a1
+  - Resource namespace: e839da27328472dc498de4c29c24b4a7
   - Shared memory size: 1073741824
   - Command buffer id: 1052576
   - Command buffer size: 8192
   - Hashmap size: 4194304
   - Service connected: false
-Launching Unity Data Store - D:/Unity/6000.6.8f1/Editor/Data/Tools/Unity.DataStore.exe 
-Unity Data Store artifact dir = Library/DataStore, working dir = D:/Project/ParanormalInvestigationUnity Data Store running and initialised
-Refreshing native plugins compatible for Editor in 2.77 ms, found 0 plugins.
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/My PC/Desktop/Projects/ParanormalInvestigationUnity Data Store running and initialised
+Refreshing native plugins compatible for Editor in 2.27 ms, found 0 plugins.
 [Physics::Module] Selected backend (deferred post-plugins).
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -116,273 +116,367 @@ Refreshing native plugins compatible for Editor in 2.77 ms, found 0 plugins.
 [Physics::Module] Threading Mode: Multi-Threaded
 Initialize engine version: 6000.6.8f1 (237b6593792b)
 [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
-[Subsystems] Discovering subsystems at path D:/Unity/6000.6.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Project/ParanormalInvestigation/Assets
-[D3D12 Device Filter] Vendor Name: Intel
-[D3D12 Device Filter] Device Name: Intel(R) HD Graphics 630
-[D3D12 Device Filter] Driver Version: 31.0.101.2140
-[D3D12 Device Filter] Feature Level: 12.1
-[D3D12 Device Filter] Graphics Memory: 8150 MB
-[D3D12 Device Filter] Processor Count: 8
-[D3D12 Device Filter] Device Type: Integrated
-[D3D12 Device Filter] D3D12 API denied by user filter: {"Vendor": "Intel", "Device Type:": Integrated}
-GfxDevice: creating device client; kGfxThreadingModeThreaded
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/My PC/Desktop/Projects/ParanormalInvestigation/Assets
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 3050
+[D3D12 Device Filter] Driver Version: 32.0.16.1088
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 6002 MB
+[D3D12 Device Filter] Processor Count: 12
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 630 (ID=0x5912)
-    Vendor:   Intel
-    VRAM:     8150 MB
-    Driver:   31.0.101.2140
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 (ID=0x2584)
+    Vendor:          NVIDIA
+    VRAM:            6002 MB
+    App VRAM Budget: 5234 MB
+    Driver:          32.0.16.1088
 Initialize mono
-Mono path[0] = 'D:/Unity/6000.6.8f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/6000.6.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
-Mono path[2] = 'D:/Unity/6000.6.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/6000.6.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/6000.6.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.060307 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009756 seconds.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.898 seconds
-Domain Reload Profiling: 5811ms
-	BeginReloadAssembly (435ms)
-		CreateAndSetChildDomain (4ms)
-	RebuildCommonClasses (8ms)
-	RebuildNativeTypeToScriptingClass (1506ms)
-	initialDomainReloadingComplete (1101ms)
-	LoadAllAssembliesAndSetupDomain (860ms)
-		LoadAssemblies (431ms)
-		TypeCache.Refresh (602ms)
-			TypeCache.ScanAssembly (556ms)
+- Finished resetting the current domain, in  1.444 seconds
+Domain Reload Profiling: 2677ms
+	BeginReloadAssembly (366ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (202ms)
+	LoadAllAssembliesAndSetupDomain (619ms)
+		LoadAssemblies (343ms)
+		TypeCache.Refresh (421ms)
+			TypeCache.ScanAssembly (396ms)
 		AnalyzeDomain (2ms)
-	FinalizeReload (1900ms)
+	FinalizeReload (1446ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (4ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			BeforeProcessingInitializeOnLoad (245ms)
-			ProcessInitializeOnLoadAttributes (195ms)
-			ProcessInitializeOnLoadMethodAttributes (973ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (194ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (629ms)
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
 [Package Manager] Restoring resolved packages state from cache
 [Licensing::Client] Successfully resolved entitlement details
 [Package Manager] Registered 56 packages:
   Packages from [https://packages.unity.com]:
-    com.unity.collab-proxy@2.13.6 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
-    com.unity.ide.rider@3.1.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.ide.rider@570989d4a882)
-    com.unity.ide.visualstudio@2.0.28 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.ide.visualstudio@b5edea5f33f4)
-    com.unity.inputsystem@1.20.1 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.inputsystem@2436e68c60c4)
-    com.unity.searcher@4.9.5 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.searcher@a463122f2c00)
-    com.unity.profiling.core@1.0.3 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
-    com.unity.nuget.mono-cecil@1.11.6 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.1.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.ide.rider@570989d4a882)
+    com.unity.ide.visualstudio@2.0.28 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.ide.visualstudio@b5edea5f33f4)
+    com.unity.inputsystem@1.20.1 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.inputsystem@2436e68c60c4)
+    com.unity.searcher@4.9.5 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
   Built-in packages:
-    com.unity.render-pipelines.universal@17.6.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.render-pipelines.universal@66a8e36658da)
-    com.unity.ugui@2.6.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.ugui@fd16ebf174c6)
-    com.unity.modules.accessibility@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.accessibility)
-    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.adaptiveperformance)
-    com.unity.modules.ai@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.ai)
-    com.unity.modules.androidjni@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.androidjni)
-    com.unity.modules.animation@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.animation)
-    com.unity.modules.assetbundle@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.assetbundle)
-    com.unity.modules.audio@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.audio)
-    com.unity.modules.cloth@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.cloth)
-    com.unity.modules.director@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.director)
-    com.unity.modules.imageconversion@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.imageconversion)
-    com.unity.modules.imgui@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.imgui)
-    com.unity.modules.jsonserialize@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.jsonserialize)
-    com.unity.modules.particlesystem@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.particlesystem)
-    com.unity.modules.physics@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.physics)
-    com.unity.modules.physics2d@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.physics2d)
-    com.unity.modules.physicscore2d@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.physicscore2d)
-    com.unity.modules.screencapture@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.screencapture)
-    com.unity.modules.terrain@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.terrain)
-    com.unity.modules.terrainphysics@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.terrainphysics)
-    com.unity.modules.tetgen@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.tetgen)
-    com.unity.modules.tilemap@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.tilemap)
-    com.unity.modules.timelinefoundation@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.timelinefoundation)
-    com.unity.modules.ui@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.ui)
-    com.unity.modules.uielements@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.uielements)
-    com.unity.modules.umbra@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.umbra)
-    com.unity.modules.unityanalytics@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.unityanalytics)
-    com.unity.modules.unitywebrequest@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.unitywebrequest)
-    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
-    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
-    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
-    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.unitywebrequestwww)
-    com.unity.modules.vectorgraphics@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.vectorgraphics)
-    com.unity.modules.vehicles@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.vehicles)
-    com.unity.modules.video@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.video)
-    com.unity.modules.wind@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.wind)
-    com.unity.modules.xr@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.xr)
-    com.unity.modules.subsystems@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.subsystems)
-    com.unity.modules.hierarchycore@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.modules.hierarchycore)
-    com.unity.render-pipelines.core@17.6.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.render-pipelines.core@74b1c5924895)
-    com.unity.shadergraph@17.6.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.shadergraph@807b608040c3)
-    com.unity.render-pipelines.universal-config@17.6.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
-    com.unity.test-framework@1.8.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.test-framework@ee3fe9477490)
-    com.unity.graph-authoring@1.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
-    com.unity.burst@2.0.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.burst@626e66ab421b)
-    com.unity.collections@6.6.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.collections@4920e8897b5a)
-    com.unity.ext.nunit@2.1.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
-    com.unity.test-framework.performance@6.6.0 (location: D:\Project\ParanormalInvestigation\Library\PackageCache\com.unity.test-framework.performance@e8b39e3ef3d9)
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.render-pipelines.universal@66a8e36658da)
+    com.unity.ugui@2.6.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.ugui@fd16ebf174c6)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.render-pipelines.core@74b1c5924895)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.shadergraph@807b608040c3)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.test-framework@1.8.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.test-framework@ee3fe9477490)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.collections@4920e8897b5a)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\Library\PackageCache\com.unity.test-framework.performance@e8b39e3ef3d9)
 [Subsystems] No new subsystems found in resolved package list.
-[Package Manager] Done registering packages in 0.04 seconds
-Starting: D:\Unity\6000.6.8f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
-WorkingDir: D:/Project/ParanormalInvestigation
+[Package Manager] Done registering packages in 0.05 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/My PC/Desktop/Projects/ParanormalInvestigation
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
-      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "D:\Unity\6000.6.8f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "D:\Unity\6000.6.8f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
-      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "D:\Unity\6000.6.8f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "D:\Unity\6000.6.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
-ExitCode: 0 Duration: 0s741ms
-[631/800    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (0.59 seconds), 1 items updated, 800 evaluated
-AssetDatabase: script compilation time: 2.861560s
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 1s103ms
+[632/801    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.95 seconds), 1 items updated, 801 evaluated
+AssetDatabase: script compilation time: 2.267432s
+Total cache size 24731264
+Total cache size after purge 24731264, took 00:00:00.1326957
 Begin MonoManager ReloadAssembly
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 5.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.48 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  2.052 seconds
-Domain Reload Profiling: 4078ms
-	BeginReloadAssembly (639ms)
-		DisableScriptedObjects (47ms)
-		CreateAndSetChildDomain (211ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (37ms)
-	initialDomainReloadingComplete (99ms)
-	LoadAllAssembliesAndSetupDomain (1227ms)
-		LoadAssemblies (691ms)
-		TypeCache.Refresh (317ms)
-			TypeCache.ScanAssembly (297ms)
-		AnalyzeDomain (114ms)
-			BuildScriptInfoCaches (106ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (2054ms)
+- Finished resetting the current domain, in  1.774 seconds
+Domain Reload Profiling: 5971ms
+	BeginReloadAssembly (590ms)
+		DisableScriptedObjects (100ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (150ms)
+	LoadAllAssembliesAndSetupDomain (3387ms)
+		LoadAssemblies (2911ms)
+		TypeCache.Refresh (314ms)
+			TypeCache.ScanAssembly (293ms)
+		AnalyzeDomain (109ms)
+			BuildScriptInfoCaches (101ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1777ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (4ms)
-			BeforeProcessingInitializeOnLoad (227ms)
-			ProcessInitializeOnLoadAttributes (643ms)
-			ProcessInitializeOnLoadMethodAttributes (172ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (4ms)
-		AwakeInstancesAfterBackupRestoration (57ms)
-Starting new worker id: 0 with log in D:/Project/ParanormalInvestigation/Logs/AssetImportWorkerHW0.log
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (541ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (61ms)
+Starting new worker id: 0 with log in C:/Users/My PC/Desktop/Projects/ParanormalInvestigation/Logs/AssetImportWorkerHW0.log
 
-Asset Pipeline Refresh (id=2ac9697249308e14f894c787c53383e5): Total: 8.316 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=ebacf7ed3b1604446a15cf20516aa5b7): Total: 10.282 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=3088 ms
-		Asset DB Callback time: managed=103 ms, native=42 ms
-		Scripting: domain reloads=1, domain reload time=2136 ms, compile time=2867 ms, other=78 ms
-		Project Asset Count: scripts=1084, non-scripts=2081
+		Asset DB Process Time: managed=0 ms, native=3381 ms
+		Asset DB Callback time: managed=79 ms, native=53 ms
+		Scripting: domain reloads=1, domain reload time=4372 ms, compile time=2272 ms, other=122 ms
+		Project Asset Count: scripts=1085, non-scripts=2082
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 45.499ms
-	ApplyChangesToAssetFolders: 1.817ms
-	Scan: 272.259ms
-	Collect global state as custom dependencies: 47.133ms
-	CategorizeScriptCompilationAssets: 154.152ms
-	ProcessAssetsWithTransientArtifactChanges: 115.099ms
-	CategorizeAssets: 101.117ms
-	CompileScripts: 2866.581ms
-	ImportOutOfDateAssets: 2080.531ms (2068.828ms without children)
-		ReloadNativeAssets: 0.060ms
-		UnloadImportedAssets: 1.521ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.433ms
-		ImportSchedulerStart: 8.681ms
-	PostProcessAllAssets: 103.435ms
-		MonoPostProcessAllAssets: 103.303ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 42.695ms
-			SyncVS.PostprocessSyncProject 23.447ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 7.291ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.101ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 1.930ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.439ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.162ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.590ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.504ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.347ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.337ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.335ms
-	UnloadStreamsBegin: 2.918ms
-	PersistCurrentRevisions: 0.157ms
-	UnloadStreamsEnd: 0.079ms
-	GenerateScriptTypeHashes: 2.532ms
-	GenerateScriptTypeSerializationHashes: 4.723ms
-	Untracked: 2518.922ms
+	InvokeCustomDependenciesCallbacks: 0.518ms
+	InvokePackagesCallback: 58.060ms
+	ApplyChangesToAssetFolders: 3.881ms
+	Scan: 434.760ms
+	Collect global state as custom dependencies: 86.775ms
+	CategorizeScriptCompilationAssets: 100.663ms
+	ProcessAssetsWithTransientArtifactChanges: 97.364ms
+	CategorizeAssets: 352.452ms
+	CompileScripts: 2271.776ms
+	ImportOutOfDateAssets: 1828.251ms (1797.007ms without children)
+		ReloadNativeAssets: 0.265ms
+		UnloadImportedAssets: 5.572ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.367ms
+		ImportSchedulerStart: 24.035ms
+	PostProcessAllAssets: 79.723ms
+		MonoPostProcessAllAssets: 79.614ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 41.292ms
+			SyncVS.PostprocessSyncProject 8.087ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.955ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.855ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.478ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.308ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.946ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.552ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.468ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.353ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.312ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.288ms
+	UnloadStreamsBegin: 3.049ms
+	PersistCurrentRevisions: 0.119ms
+	GenerateScriptTypeHashes: 2.474ms
+	GenerateScriptTypeSerializationHashes: 4.256ms
+	Untracked: 4906.063ms
 
 Application.AssetDatabase Initial Refresh End
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Scanning for USB devices : 3.376ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Scanning for USB devices : 15.363ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-ParanormalInvestigation
-Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/MainScene.unity'
-	Deserialize:            45.254 ms
-	Integration:            85.963 ms
-	Integration of assets:  0.087 ms
-	Thread Wait Time:       0.149 ms
-	Total Operation Time:   131.454 ms
-Unloading 4672 unused Assets / (10.3 MB). Loaded Objects now: 5642.
-Memory consumption went from 383.7 MB to 373.4 MB.
-Total: 23.138400 ms (FindLiveObjects: 1.099400 ms CreateObjectMapping: 1.129000 ms MarkObjects: 13.184500 ms  DeleteObjects: 7.456300 ms)
+	Deserialize:            31.780 ms
+	Integration:            58.566 ms
+	Integration of assets:  0.162 ms
+	Thread Wait Time:       -0.116 ms
+	Total Operation Time:   90.392 ms
+Unloading 4633 unused Assets / (7.8 MB). Loaded Objects now: 5685.
+Memory consumption went from 388.1 MB to 380.2 MB.
+Total: 37.017300 ms (FindLiveObjects: 0.755500 ms CreateObjectMapping: 0.812000 ms MarkObjects: 24.087300 ms  DeleteObjects: 10.853400 ms)
 
 [LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
 Worker ready: AssetImportWorkerHW0 0
-[LAYOUT] About to save layout D:\Project\ParanormalInvestigation\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/tamba/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[LAYOUT] About to save layout C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/My PC/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
 [MODES] ModeService[default].InitializeCurrentMode
 [MODES] ModeService[default].RaiseModeChanged(default, default)
 This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
 <RI> Initializing input.
 Using Windows.Gaming.Input
 <RI> Input initialized.
-[Project] Loading completed in 23.337 seconds
-	Project init time: 				18.807 seconds
+[Project] Loading completed in 23.499 seconds
+	Project init time: 				20.358 seconds
 		Template init time: 		0.000 seconds
-		Package Manager init time: 		0.554 seconds
-		Asset Database init time: 		0.554 seconds
-		Global illumination init time: 	0.041 seconds
-		Assemblies load time: 			6.024 seconds
-		Unity extensions init time: 	0.062 seconds
-		Asset Database refresh time: 	8.317 seconds
-	Scene opening time: 			4.011 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794544729236,"processId":13940,"projectLoad":23.3365509,"projectInit":18.8073005,"templateInit":0.0,"packageManagerInit":0.5537519,"assetDatabaseInit":0.5544649,"globalIlluminationInit":0.0410513,"assembliesLoad":6.023544,"unityExtensionsInit":0.0621672,"assetDatabaseRefresh":8.3166968,"sceneOpening":4.0105029}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794544729236,"processId":13940,"editorVersion":"6000.6.8f1 (237b6593792b)","branch":"6000.6/respin/6000.6.8f1-b6138bef9630","buildType":"Release","platform":"Windows"}
-Created GICache directory at C:/Users/tamba/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.117s, timestamps: [25.942 - 26.059]
+		Package Manager init time: 		0.385 seconds
+		Asset Database init time: 		0.921 seconds
+		Global illumination init time: 	0.014 seconds
+		Assemblies load time: 			2.872 seconds
+		Unity extensions init time: 	0.217 seconds
+		Asset Database refresh time: 	10.284 seconds
+	Scene opening time: 			2.714 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794718592062,"processId":25028,"projectLoad":23.498862,"projectInit":20.3578858,"templateInit":0.0,"packageManagerInit":0.3854862,"assetDatabaseInit":0.9207742,"globalIlluminationInit":0.0135973,"assembliesLoad":2.871592,"unityExtensionsInit":0.217358,"assetDatabaseRefresh":10.2837766,"sceneOpening":2.714082}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794718592063,"processId":25028,"editorVersion":"6000.6.8f1 (237b6593792b)","branch":"6000.6/respin/6000.6.8f1-b6138bef9630","buildType":"Release","platform":"Windows"}
+
+Asset Pipeline Refresh (id=26ca25653b2899b4fa4e21f507e1684e): Total: 0.470 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=467 ms
+		Asset DB Callback time: managed=0 ms, native=2 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1085, non-scripts=2082
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.240ms
+	InvokePackagesCallback: 3.192ms
+	ApplyChangesToAssetFolders: 0.720ms
+	Collect global state as custom dependencies: 3.152ms
+	CategorizeScriptCompilationAssets: 0.237ms
+	ProcessAssetsWithTransientArtifactChanges: 1.202ms
+	CategorizeAssets: 320.856ms
+	CompileScripts: 0.096ms
+	ImportOutOfDateAssets: 3.401ms (0.952ms without children)
+		ReloadNativeAssets: 0.254ms
+		UnloadImportedAssets: 0.317ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.809ms
+		InitializingProgressBar: 0.163ms
+		ImportSchedulerStart: 0.905ms
+	GatherAllCurrentPrimaryImportResultRevisions: 2.215ms
+	UnloadStreamsBegin: 9.861ms
+	PersistCurrentRevisions: 0.101ms
+	Untracked: 84.095ms
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/My PC/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.054s, timestamps: [24.045 - 24.098]
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "Dqyh0ILV"... (expires: 2026-11-13T06:34:44Z)
+[Licensing::Module] Successfully updated access token: "Egmpx79O"... (expires: 2026-11-15T06:15:30Z)
 UPID Received '4e9157ec-7e8f-43df-8b0f-ead18f12bfa3'.
 [Licensing::Client] Successfully resolved entitlement details
-Asset Pipeline Refresh (id=4dfb7bc71bee01c4abbcda1f6b92ca9f): Total: 0.128 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Start Indexing on Editor startup
-[Indexing] Starting Initial Indexing for Assets
-Starting new worker id: 1 with log in D:/Project/ParanormalInvestigation/Logs/AssetImportWorkerHW1.log
-[Worker0] Imported GUID: d61f2ffdb3ab6b746ab09debe27d1bf9 - Path: Assets/Scenes/MainScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bf03c4df4ccb069bda0687586d3d2bb5') in 0.1380821 seconds
-[Worker0] Imported GUID: cd65d05bd3daa21419dfdd7cd901feac - Path: Assets/Scripts/FlashlightController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a981f4f5e5de0093110ee47f065ae927') in 0.0963665 seconds
-Worker ready: AssetImportWorkerHW1 1
-Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
-Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '4c4863529adc9ac14970731e8a5da60e') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=e27b047e3559935d81d11e8d5dd7411e StaticDependenciesID=a4661aca7a2be7b6d5e28438e344ffeb 
-Asset Pipeline Refresh (id=5943c43b96b4ba64d99c9b1203caf8b8): Total: 0.119 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker0] Imported GUID: 709f11a7f3c4041caa4ef136ea32d874 - Path: Assets/Settings - Importer: PreviewImporter -> (ImportResultId: 'fb64a58e3bf9acc0d919dd62c831aa30') in 0.0276101 seconds
-MonoPathRemapper: Attempts to remap: 26767; Successful remaps: 14640
+TrimDiskCacheJob: Current cache size 0mb
+MonoPathRemapper: Attempts to remap: 29219; Successful remaps: 18024
 Serialized file version minimum: 23, current 23
-[LAYOUT] About to save layout D:\Project\ParanormalInvestigation\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/tamba/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[LAYOUT] About to save layout C:\Users\My PC\Desktop\Projects\ParanormalInvestigation\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/My PC/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '4c4863529adc9ac14970731e8a5da60e') in 0.016 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=e27b047e3559935d81d11e8d5dd7411e StaticDependenciesID=a4661aca7a2be7b6d5e28438e344ffeb 
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+
+Asset Pipeline Refresh (id=9448081891ed3d74389c6249587ec078): Total: 0.468 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=5 ms, native=248 ms
+		Asset DB Callback time: managed=116 ms, native=96 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1085, non-scripts=2082
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.051ms
+	ApplyChangesToAssetFolders: 0.571ms
+	Scan: 200.960ms
+	Collect global state as custom dependencies: 0.778ms
+	ProcessAssetsWithTransientArtifactChanges: 0.880ms
+	CategorizeAssets: 4.274ms
+	ImportOutOfDateAssets: 22.162ms (0.186ms without children)
+		ImportManagerImport: 20.108ms (3.303ms without children)
+		ReloadNativeAssets: 0.093ms
+		UnloadImportedAssets: 0.304ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.619ms
+		ImportSchedulerStart: 0.847ms
+	PostProcessAllAssets: 207.406ms
+		XRBuildSystem.XRAssetImported 90.013ms
+		PostprocessAssetsUpdateCachedIcon 0.181ms
+		MonoPostProcessAllAssets: 116.344ms
+			AssetPostprocessor.OnPostprocessAllAssets 27.014ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 25.849ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 11.151ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 6.548ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 6.204ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 6.100ms
+			PostProcessor.OnPostprocessAllAssets 4.049ms
+			SyncVS.PostprocessSyncProject 2.450ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.998ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 1.908ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.900ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 1.528ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.478ms
+			AssetChangedListener.OnPostprocessAllAssets 1.238ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 1.082ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.974ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.943ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.833ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.780ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.763ms
+			AssetEvents.OnPostprocessAllAssets 0.720ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.642ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.628ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.618ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.265ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.231ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.220ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.063ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.061ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.051ms
+	PostAssetChangesProfiler: 5.762ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.984ms
+	UnloadStreamsBegin: 16.147ms
+	PersistCurrentRevisions: 0.108ms
+	Untracked: 6.608ms
+
 Input System module state changed to: ShutdownInProgress.
 Input Polling Thread exited.
 Input System module state changed to: Shutdown.
@@ -390,8 +484,8 @@ Input System module state changed to: Shutdown.
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 [Physics::Module] Cleanup current backend.
 [Physics::Module] Id: 0xf2b8ea05
-[Licensing::IpcConnector] LicenseClient-tamba-notifications channel disconnected successfully.
-[Licensing::IpcConnector] LicenseClient-tamba channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Zeus-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Zeus channel disconnected successfully.
 Lingering sessions upon destruction of worker manager
 Unity Data Store service was successfully shut down
 UDS shutting down local client system
@@ -399,21 +493,17 @@ Shut down UDS service system complete
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
 CodeReloadManager destroyed
-abort_threads: Failed aborting id: 0000000000001204, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 000000000000569C, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 00000000000004D8, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 00000000000061E0, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 000000000000289C, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 000000000000569C, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 0000000000001204, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 00000000000061E0, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 00000000000004D8, mono_thread_manage will ignore it
-
-abort_threads: Failed aborting id: 000000000000289C, mono_thread_manage will ignore it
-
-debugger-agent: Unable to listen on 3488
+debugger-agent: Unable to listen on 4812
 VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
 Checking for leaked weakptr:
   Found no leaked weakptrs.
 [Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794544757040,"processId":13940,"allocatedMemory":16148361,"memoryLabels":[{"Default":186502},{"Permanent":15516},{"NewDelete":69353},{"Thread":4198024},{"Manager":818557},{"VertexData":8},{"Geometry":824},{"Texture":24},{"Shader":853704},{"Material":132},{"GfxDevice":55968},{"Animation":952},{"Audio":696},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":17216},{"Input":45280},{"JobScheduler":256},{"TextLib":17757},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1271576},{"BaseObject":48848},{"Resource":1444},{"Renderer":2504},{"Transform":4781},{"File":16296},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":307689},{"StaticString":3808},{"Utility":2673983},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":14869},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":4716},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"EntityIdStore":33088},{"Gui":128},{"EditorUtility":412054},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4517951},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36921},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12805},{"AssetReference":32},{"IPCStream":32}]}
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794719078679,"processId":25028,"allocatedMemory":16424539,"memoryLabels":[{"Default":197791},{"Permanent":15516},{"NewDelete":69373},{"Thread":4209184},{"Manager":820096},{"VertexData":8},{"Geometry":824},{"Texture":24},{"Shader":865771},{"Material":132},{"GfxDevice":62056},{"GfxThread":10752},{"Animation":952},{"Audio":696},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":100872},{"Input":45280},{"JobScheduler":256},{"TextLib":23005},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1271576},{"BaseObject":48912},{"Resource":1444},{"Renderer":2504},{"Transform":4781},{"File":7389},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":449224},{"StaticString":3808},{"Utility":2674426},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":17165},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":5637},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"EntityIdStore":33088},{"Gui":128},{"EditorUtility":408886},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4519127},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36921},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":258},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3602},{"Windowing":456},{"Licensing":12804},{"AssetReference":32},{"IPCStream":32}]}
