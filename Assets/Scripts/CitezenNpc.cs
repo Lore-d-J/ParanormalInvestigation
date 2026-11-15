@@ -10,6 +10,14 @@ public class CitezenNpc : MonoBehaviour
     public KeyCode interactKey = KeyCode.E;
     public float typingSpeed = 0.04f;
 
+    [Header("Home Case")]
+    public bool offersCase = true;
+    [TextArea(2, 4)]
+    public string helpOfferText = "Please help me. Something is haunting my home. Will you come investigate?";
+    public KeyCode acceptHelpKey = KeyCode.Y;
+    public KeyCode declineHelpKey = KeyCode.N;
+    public Transform homeEntryPoint;
+
     [Header("Dialogue UI")]
     public GameObject dialoguePanel;
     public TMP_Text dialogueTextUI;
@@ -26,6 +34,7 @@ public class CitezenNpc : MonoBehaviour
     private int currentLineIndex = 0;
     private bool isTalking = false;
     private bool isTyping = false;
+    private bool isOfferingHelp = false;
     private Animator animator;
     private Coroutine typingCoroutine;
     private Collider npcCollider;
@@ -37,6 +46,11 @@ public class CitezenNpc : MonoBehaviour
     {
         animator = GetComponentInParent<Animator>();
         interactionRoot = animator != null ? animator.transform : transform;
+
+        if (homeEntryPoint != null && homeEntryPoint.parent != null)
+        {
+            homeEntryPoint.SetParent(null, true);
+        }
 
         npcCollider = GetComponent<Collider>();
         if (npcCollider == null) npcCollider = GetComponentInChildren<Collider>();
@@ -91,25 +105,38 @@ public class CitezenNpc : MonoBehaviour
                 {
                     StartDialogue();
                 }
-                else if (isTyping)
+                else if (!isOfferingHelp)
                 {
-                    StopCoroutine(typingCoroutine);
-                    dialogueTextUI.text = dialogueLines[currentLineIndex];
-                    isTyping = false;
-                    ShowContinuePrompt();
-                }
-                else
-                {
-                    currentLineIndex++;
-                    if (currentLineIndex < dialogueLines.Length)
+                    if (isTyping)
                     {
-                        typingCoroutine = StartCoroutine(TypeLine(dialogueLines[currentLineIndex]));
+                        StopCoroutine(typingCoroutine);
+                        dialogueTextUI.text = dialogueLines[currentLineIndex];
+                        isTyping = false;
+                        ShowContinuePrompt();
                     }
                     else
                     {
-                        EndDialogue();
+                        currentLineIndex++;
+                        if (currentLineIndex < dialogueLines.Length)
+                        {
+                            typingCoroutine = StartCoroutine(TypeLine(dialogueLines[currentLineIndex]));
+                        }
+                        else if (offersCase)
+                        {
+                            ShowHelpOffer();
+                        }
+                        else
+                        {
+                            EndDialogue();
+                        }
                     }
                 }
+            }
+
+            if (isOfferingHelp)
+            {
+                if (Input.GetKeyDown(acceptHelpKey)) EnterHome();
+                else if (Input.GetKeyDown(declineHelpKey)) EndDialogue();
             }
         }
         else
@@ -150,7 +177,14 @@ public class CitezenNpc : MonoBehaviour
 
     void StartDialogue()
     {
+        if (dialogueLines == null || dialogueLines.Length == 0)
+        {
+            Debug.LogError("CitezenNpc requires at least one dialogue line.", this);
+            return;
+        }
+
         isTalking = true;
+        isOfferingHelp = false;
         showPromptOverlay = false;
         currentLineIndex = 0;
 
@@ -161,10 +195,46 @@ public class CitezenNpc : MonoBehaviour
         typingCoroutine = StartCoroutine(TypeLine(dialogueLines[currentLineIndex]));
     }
 
+    void ShowHelpOffer()
+    {
+        isOfferingHelp = true;
+        dialogueTextUI.text = helpOfferText;
+        if (continuePromptUI != null)
+        {
+            continuePromptUI.gameObject.SetActive(true);
+            continuePromptUI.text = "[" + acceptHelpKey + "] ACCEPT   [" + declineHelpKey + "] DECLINE";
+        }
+    }
+
+    void EnterHome()
+    {
+        if (homeEntryPoint == null)
+        {
+            Debug.LogError("Assign a home entry point to this citizen before accepting their case.", this);
+            dialogueTextUI.text = "This citizen's home entry point has not been configured.";
+            return;
+        }
+
+        EndDialogue();
+        TeleportPlayer(homeEntryPoint.position, homeEntryPoint.eulerAngles.y);
+    }
+
+    void TeleportPlayer(Vector3 position, float yaw)
+    {
+        CharacterController characterController = player.GetComponent<CharacterController>();
+        if (characterController == null) characterController = player.GetComponentInParent<CharacterController>();
+        if (characterController != null) characterController.enabled = false;
+
+        player.SetPositionAndRotation(position, Quaternion.Euler(0f, yaw, 0f));
+
+        if (characterController != null) characterController.enabled = true;
+    }
+
     void EndDialogue()
     {
         isTalking = false;
         isTyping = false;
+        isOfferingHelp = false;
 
         if (animator != null) animator.SetBool("isTalking", false);
 
@@ -197,11 +267,15 @@ public class CitezenNpc : MonoBehaviour
         continuePromptUI.gameObject.SetActive(true);
         if (currentLineIndex < dialogueLines.Length - 1)
         {
-            continuePromptUI.text = "[E] TO CONTINUE";
+            continuePromptUI.text = "[" + interactKey + "] TO CONTINUE";
+        }
+        else if (offersCase)
+        {
+            continuePromptUI.text = "[" + interactKey + "] TO RESPOND";
         }
         else
         {
-            continuePromptUI.text = "[E] TO CLOSE";
+            continuePromptUI.text = "[" + interactKey + "] TO CLOSE";
         }
     }
 }
